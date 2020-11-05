@@ -86,3 +86,60 @@ let a = 11;
 let b = 5;
 let c = a % b; // c is 1 because a / b = 2 remainder 1
 ```
+
+## Incrementing numbers
+You will learn later, but there are many times where you'll want to increment a number by a certain amount. Let's look at the example code below:
+```js
+let a = 0;
+a = a + 10;
+console.log(a); // 10
+```
+In this code, we incremented `a` by 10. This is fine and well, but there is a more common way that this is done using the **addition assignment** operator. This operator, `+=` makes it a little less verbose to increment a number. Using this operator, the above code turns into:
+```js
+let a = 0;
+a += 10;
+console.log(a); // 10
+```
+Which makes it a little easier to read.
+
+Make sure that if you are trying to increment a number, the variable is of type number before using this operator! The `+=` operator means very different things for different data types (as we'll review later).
+
+### Special case: incrementing by 1
+Incrementing by 1 is _so common_ in JavaScript, that it has its own special syntax. It is called the **increment** operator, `++`. There are two ways to do this, **postfix** and **prefix**. 
+
+#### Postfix increment
+This will return the variable as is and then increment the variable. For example:
+```js
+let a = 1;
+let b = a++;
+console.log(a); // 2
+console.log(b); // 1
+```
+Notice that `b` is 1, because it got assigned to the value of `a` _before_ `a` was incremented.
+
+#### Prefix increment
+This will increment the variable and then return it. For example:
+```js
+let a = 1;
+let b = ++a;
+console.log(a); // 2
+console.log(b); // 2
+```
+Here you can see that `a` and `b` are both 2, because `a` was incremented before assigning to `b`.
+
+### Decrementing?
+All these principles also apply to subtraction. There is a **subtraction assignment** operator, `-=`, and a **decrement** operator, `--`.
+
+## Comparing numbers
+Comparing numbers is very important in programming. Let's say you were writing a program to determine if a person could buy a lotto ticket. You need to see if the person is older than 18. We can imagine something like this:
+```js
+let age = 16;
+let lotto_age = 18;
+
+if (age < lotto_age) {
+  console.log("Sorry, too young!")
+} else if (age >= lotto_age) {
+  console.log("Here's your ticket!")
+}
+```
+Notice the `<`, `>=` signs. They are as they seem, **less than** and **greater than or equal to**. There is also an equality operator, however we'll dive into that later.
