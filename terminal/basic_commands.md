@@ -132,3 +132,4 @@ Choose the right commands to do the following actions (there might be multiple t
 10. `cd ..`
 11. `rm my_temp_directory`
 12. `touch my_test_file.txt`
+13. `mkdir hello_world`
