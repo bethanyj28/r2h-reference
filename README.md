@@ -1,4 +1,4 @@
-# road-to-hire-reference
+# r2h-reference
 
 The purpose of this repo is to document concepts that we've reviewed during our mentoring sessions and keep organized!
 
