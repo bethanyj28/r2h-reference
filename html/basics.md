@@ -29,4 +29,42 @@ Elements can be used inside other elements in what is known as nesting. For exam
 <p>My cat is <strong>very</strong> grumpy.</p>
 ```
 
+## Empty elements
+Certain elements don't have content. For example the `<img>` element:
+```html
+<img src="images/firefox-icon.png" alt="My test image">
+```
+
+## HTML Documents
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+  </head>
+  <body>
+    <img src="images/firefox-icon.png" alt="My test image">
+  </body>
+</html>
+```
+
+## `<!DOCTYPE html>`
+Used to be important for error checking, however does not do very much anymore. It is important to include since sometimes it is required to parse the HTML. Including it just ensures the document behaves correctly.
+
+## `<html></html>`
+The `<html>` element, also known as the **root** element, wraps all the content on the entire page.
+
+## `<head></head>`
+All the content you want on your page that you don't want to show to users. This includes keywords, page description, CSS styling, character set declarations, etc.
+
+## `<meta charset="utf-8">`
+The character set your document will use. You likely will always set it to UTF-8 since it encompasses most written languages.
+
+## `<title></title>`
+Sets the title of the page, which appears on the browser tab when the page is loaded.
+
+## `<body></body>`
+The `<body>` element encompasses all the content that you want to show users when they visit your page.
+
 Reference: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
