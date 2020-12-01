@@ -17,3 +17,8 @@ This repo won't have everything, but here are some sites that can help you find 
 - [LeetCode](https://leetcode.com/) - more algorithmic practice, but can be helpful
 - [JSFiddle](https://jsfiddle.net/) - JS/CSS/HTML practice environment
 - [CodePen](https://codepen.io/) - another JS/CSS/HTML practice environment
+
+### Podcasts
+- [JS Party](https://changelog.com/jsparty) - All about Java Script! I listen to other Changelog podcasts and they do a great job to ensure that the content is accessible to everyone, from beginners to experts.
+- [The Changelog](https://changelog.com/podcast) - A general programming podcast. This is a great way to get comfortable with technical speaking.
+- [Front End Happy Hour](https://frontendhappyhour.com/) - Highly recommended front end podcast.
