@@ -68,8 +68,8 @@ Sets the title of the page, which appears on the browser tab when the page is lo
 The `<body>` element encompasses all the content that you want to show users when they visit your page.
 
 ## Practice problems
-[W3 Schools](https://www.w3schools.com/html/html_exercises.asp)
-[Land of Code](http://www.landofcode.com/html-exercises/)
+- [W3 Schools](https://www.w3schools.com/html/html_exercises.asp)
+- [Land of Code](http://www.landofcode.com/html-exercises/)
 
 ----
 Reference: https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics
