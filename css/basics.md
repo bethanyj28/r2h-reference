@@ -102,4 +102,4 @@ All of this might seem reasonable for a basic website, but with websites getting
 With the prevelance of phones, it's important to style your site in a way that looks good on all devices. It would be exhausting to rewrite your CSS for each different device you encounter, so [media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries) are great to apply conditional logic to your CSS to ensure your styles look good on any screen.
 
 # Practice Problems
-- [W3 Schools](https://www.w3schools.com/css/css_exercises.asp) (Note that this site makes you write CSS in an HTML file, which is an alternative to writing it in a `.css` file.
+- [W3 Schools](https://www.w3schools.com/css/css_exercises.asp) (Note that this site makes you write CSS in an HTML file, which is an alternative to writing it in a `.css` file)
